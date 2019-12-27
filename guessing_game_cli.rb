@@ -3,7 +3,7 @@
 def run_guessing_game
   system_number = rand(5) + 1
   #puts "Guess a number:"
-  guess = gets.chomp
+  guess.chomp! = gets
   
   if guess == system_number
     puts "You guessed the correct number!"
