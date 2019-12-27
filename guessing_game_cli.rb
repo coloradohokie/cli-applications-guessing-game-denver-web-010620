@@ -2,7 +2,7 @@
 
 def run_guessing_game
   system_number = rand(5) + 1
-  puts "Guess a number:"
+  #puts "Guess a number:"
   guess = gets
   
   if guess == system_number
